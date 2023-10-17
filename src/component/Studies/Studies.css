@@ -1,0 +1,199 @@
+.studies-container{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+.studies-text-h1{
+    padding-top: 220px;
+    padding-left: 200px;
+    font-size: 60px;
+    background-image:  linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    color: transparent;
+   
+    margin-top: 20px;
+
+}
+.studies-blog{
+    padding-top: 0px;
+    padding-left: 150px;
+
+}
+.studies-text{
+    padding-top: 50px;
+}
+/* .studies-blog-text{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(6, 6, 112);
+    padding-top: 300px;
+    margin: 0;
+} */
+.studies-blog{
+    width: 400px;
+    height: 700px;
+    background-color: rgb(6, 6, 112);
+    padding-top: -250px;
+    padding-left: 0px;
+   margin-left: 200px;
+   margin-top: 40px;
+}
+.blog-p{
+ background-color: rgb(6, 6, 112);;
+ color: aliceblue;
+}
+.blog-h2{
+    background-color: rgb(6, 6, 112);;
+    padding-left: 20px;
+    padding-top: 50px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.blog-p2{
+    background-color: rgb(6, 6, 112);;
+    padding-left: 20px;
+    padding-top: 90px;
+    color: aliceblue;
+}
+.bloges{
+    display: grid;
+  grid-template-columns:  1fr 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  margin: 100px;
+  float: right;
+  padding-top: -300px;
+  margin-top: -730px;
+}
+.blog-content{
+    justify-content: center;
+    align-items: center;
+   margin: 30px;
+}
+
+.blogs-p{
+    background-color:  rgb(6, 6, 112);
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    color: aliceblue;
+    font-size: 18px;
+}
+.blogs-h2{
+    background-color:  rgb(6, 6, 112);
+    font-size: 25px;
+    color: aliceblue;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+.blogs-p2{
+    background-color:  rgb(6, 6, 112);
+    padding-top: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+@media (max-width: 1580px) {
+    .studies-container{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        
+        }
+        .studies-text-h1{
+            padding-top: 220px;
+            padding-left: 200px;
+            font-size: 60px;
+            background-image:  linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+            -webkit-background-clip: text;
+            color: transparent;
+           
+            margin-top: 20px;
+        
+        }
+        .studies-blog{
+            padding-top: 0px;
+            padding-left: -50px;
+            width: 100%;
+        
+        }
+        .studies-text{
+            padding-top: 40px;
+        }
+        /* .studies-blog-text{
+            width: 400px;
+            height: 400px;
+            background-color: rgb(6, 6, 112);
+            padding-top: 300px;
+            margin: 0;
+        } */
+        .studies-blog{
+            width: 400px;
+            height: 700px;
+            background-color: rgb(6, 6, 112);
+            padding-top: -50px;
+            padding-left: 0px;
+           margin-left: 100px;
+           margin-top: 40px;
+        }
+        .blog-p{
+         background-color: rgb(6, 6, 112);;
+         color: aliceblue;
+        }
+        .blog-h2{
+            background-color: rgb(6, 6, 112);;
+            padding-left: 20px;
+            padding-top: 50px;
+            color: aliceblue;
+            font-size: 30px;
+        }
+        .blog-p2{
+            background-color: rgb(6, 6, 112);;
+            padding-left: 20px;
+            padding-top: 90px;
+            color: aliceblue;
+        }
+        .bloges{
+            display: grid;
+          grid-template-columns:  1fr 1fr;
+          grid-gap: 3px;
+          overflow: hidden;
+          margin: 0px;
+          float: right;
+        padding-left: 50px;
+          padding-top: 00px;
+          margin-top: -730px;
+        }
+        .blog-content{
+            justify-content: center;
+            align-items: center;
+           margin: 30px;
+       
+        }
+        
+        .blogs-p{
+            background-color:  rgb(6, 6, 112);
+            margin: 0;
+            padding: 0;
+            padding-left: 30px;
+            color: aliceblue;
+            font-size: 18px;
+        }
+        .blogs-h2{
+            background-color:  rgb(6, 6, 112);
+            font-size: 25px;
+            color: aliceblue;
+            justify-content: center;
+            padding-top: 10px;
+        
+        }
+        .blogs-p2{
+            background-color:  rgb(6, 6, 112);
+            padding-top: 50px;
+            color: aliceblue;
+            font-size: 20px;
+            
+        }
+}
